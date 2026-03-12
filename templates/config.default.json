@@ -1,0 +1,27 @@
+{
+  "_comment": "OpenClaw 默认配置模板。安装器在配置阶段会基于此模板生成用户配置。",
+  "version": "1.0.0",
+  "workspace": {
+    "directory": ""
+  },
+  "daemon": {
+    "enabled": false,
+    "auto_start": false
+  },
+  "onboarding": {
+    "completed": false
+  },
+  "logging": {
+    "level": "info",
+    "directory": ""
+  },
+  "security": {
+    "source_allowlist_enabled": true,
+    "checksum_verification": false,
+    "signature_verification": false
+  },
+  "update": {
+    "auto_check": true,
+    "channel": "stable"
+  }
+}

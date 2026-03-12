@@ -1,0 +1,18 @@
+{
+  "minimum_node_version": "22.0.0",
+  "recommended_node_version": "22.12.0",
+  "supported_platforms": ["macos", "windows"],
+  "supported_architectures": {
+    "macos": ["arm64", "x86_64"],
+    "windows": ["x64", "arm64"]
+  },
+  "minimum_powershell_version": "5.1",
+  "upgrade_policy": {
+    "allow_major_upgrade": false,
+    "backup_before_upgrade": true,
+    "verify_after_upgrade": true,
+    "max_major_version_jump": 1,
+    "warn_on_prerelease": true
+  },
+  "_comment": "此文件定义安装器的版本策略。脚本运行时读取此文件，而不是将版本规则硬编码在代码中。"
+}

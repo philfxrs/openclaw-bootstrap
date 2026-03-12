@@ -1,0 +1,12 @@
+{
+  "checksum_enabled": false,
+  "signature_verification_enabled": false,
+  "algorithms": ["sha256"],
+  "checksums": {
+    "_example_file": {
+      "url": "https://example.com/openclaw-release.tar.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "_comment": "校验策略示例文件。当官方提供 checksum / 签名机制后，在此处配置文件校验值。当前为预留结构，尚未启用。"
+}

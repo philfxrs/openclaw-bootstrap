@@ -1,0 +1,44 @@
+========================================
+  欢迎使用 OpenClaw！
+========================================
+
+恭喜你，OpenClaw 已成功安装！
+
+以下是一些快速入门提示：
+
+1. 验证安装
+   运行以下命令确认安装正常：
+   $ openclaw --version
+
+2. 开始 Onboarding
+   如果你在安装时跳过了 onboarding，可以随时执行：
+   $ openclaw onboarding
+   （TODO: confirm onboarding command）
+
+3. 配置 Provider
+   如需使用 AI 能力，请配置你的 provider：
+   $ openclaw config set provider <provider-name>
+   $ openclaw config set api-key <your-api-key>
+   （TODO: confirm config commands）
+
+4. 获取帮助
+   $ openclaw --help
+   $ openclaw docs
+
+5. 升级 OpenClaw
+   使用本安装器升级：
+   macOS:  ./install-openclaw-macos.sh --upgrade
+   Windows: .\install-openclaw-windows.ps1 -Upgrade
+
+6. 遇到问题？
+   - 查看日志：
+     macOS:  ~/Library/Logs/openclaw-bootstrap/
+     Windows: %LOCALAPPDATA%\openclaw-bootstrap\logs\
+   - 运行修复：
+     macOS:  ./install-openclaw-macos.sh --repair
+     Windows: .\install-openclaw-windows.ps1 -Repair
+   - 查看故障排查文档：docs/TROUBLESHOOTING.md
+
+========================================
+  感谢使用 OpenClaw Bootstrap Installer
+========================================
